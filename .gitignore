@@ -1,0 +1,54 @@
+
+# Dependencias
+node_modules/
+/.pnp
+.pnp.*
+
+# Next.js
+/.next/
+/out/
+/build/
+
+# Producción
+/dist/
+
+# Variables de entorno y secretos
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Archivos del editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Certificados
+*.pem
+*.key
+
+# TypeScript (por si se incorpora después)
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel
+.vercel/
+
+# Pruebas y cobertura
+/coverage/
+
+# Archivos temporales
+*.tmp
+*.temp
